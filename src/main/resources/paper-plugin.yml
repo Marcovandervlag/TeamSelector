@@ -1,0 +1,13 @@
+name: Team Selector
+version: '${project.version}'
+main: marcovdvlag.net.teamselector.TeamSelector
+api-version: 1.19
+load: STARTUP
+authors: [Marco van der Vlag]
+description: This plug in gives you a customizable team selector
+website: https://marcovdvlag.net
+
+commands:
+  teamselector:
+    description: Update team selection GUI
+    usage: /teamselector <amount of teams> <teamname1> <team_colour> <teamname2> <team_colour> ...
